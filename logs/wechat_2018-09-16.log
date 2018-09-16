@@ -1,0 +1,11 @@
+2018-09-16 17:05:07,918 /home/terrydash/git/lykchat/library/connecter/wechat/friend.py:182 friend:_update_myself INFO {'UserName': '@498349914faee65e608839e0f4bcefb0', 'Alias': '', 'NickName': '徐国旭', 'Sex': 1}
+2018-09-16 17:08:09,762 /home/terrydash/git/lykchat/library/connecter/wechat/friend.py:182 friend:_update_myself INFO {'UserName': '@bcb157a530172bab12692f224d1965d2', 'Alias': '', 'NickName': '徐国旭', 'Sex': 1}
+2018-09-16 17:08:14,986 /home/terrydash/git/lykchat/library/connecter/wechat/friend.py:182 friend:_update_myself INFO {'UserName': '@bcb157a530172bab12692f224d1965d2', 'Alias': '', 'NickName': '徐国旭', 'Sex': 1}
+2018-09-16 18:23:12,681 /home/terrydash/git/lykchat/library/connecter/wechat/friend.py:182 friend:_update_myself INFO {'UserName': '@41743258f2c0c74802e5109665080737', 'Alias': '', 'NickName': '徐国旭', 'Sex': 1}
+2018-09-16 18:23:16,966 /home/terrydash/git/lykchat/library/connecter/wechat/friend.py:182 friend:_update_myself INFO {'UserName': '@41743258f2c0c74802e5109665080737', 'Alias': '', 'NickName': '徐国旭', 'Sex': 1}
+2018-09-16 18:28:12,909 /home/terrydash/git/lykchat/library/connecter/wechat/friend.py:182 friend:_update_myself INFO {'UserName': '@f2d5a846b17c284acd3d6427ae2a694d', 'Alias': '', 'NickName': '徐国旭', 'Sex': 1}
+2018-09-16 18:28:17,251 /home/terrydash/git/lykchat/library/connecter/wechat/friend.py:182 friend:_update_myself INFO {'UserName': '@f2d5a846b17c284acd3d6427ae2a694d', 'Alias': '', 'NickName': '徐国旭', 'Sex': 1}
+2018-09-16 18:29:21,768 /home/terrydash/git/lykchat/library/connecter/wechat/friend.py:182 friend:_update_myself INFO {'UserName': '@f2d5a846b17c284acd3d6427ae2a694d', 'Alias': '', 'NickName': '徐国旭', 'Sex': 1}
+2018-09-16 18:30:45,487 /home/terrydash/git/lykchat/library/connecter/wechat/friend.py:182 friend:_update_myself INFO {'UserName': '@f2d5a846b17c284acd3d6427ae2a694d', 'Alias': '', 'NickName': '徐国旭', 'Sex': 1}
+2018-09-16 18:52:37,389 /home/terrydash/git/lykchat/library/connecter/wechat/friend.py:182 friend:_update_myself INFO {'UserName': '@783082a469f2942c6cd6d0daf6d1a5d9', 'Alias': '', 'NickName': '徐国旭', 'Sex': 1}
+2018-09-16 18:52:41,691 /home/terrydash/git/lykchat/library/connecter/wechat/friend.py:182 friend:_update_myself INFO {'UserName': '@783082a469f2942c6cd6d0daf6d1a5d9', 'Alias': '', 'NickName': '徐国旭', 'Sex': 1}

@@ -113,9 +113,10 @@ class Manager_Interface(Wechat_Base):
     
     def check_alluser(self, ipaddr):
         
+        '''
         if not (ipaddr == '127.0.0.1' or ipaddr == 'localhost'):
             return (False, '只允许本地访问')
-        
+        '''
         rdskey_prefix = 'lykchat:*:wechat:session:*'
         result = self.redisclient.getkey(rdskey_prefix)
         if result[0] :

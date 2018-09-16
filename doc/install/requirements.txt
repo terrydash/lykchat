@@ -17,3 +17,4 @@ rarfile
 redis
 #requests
 requests-toolbelt
+schedule

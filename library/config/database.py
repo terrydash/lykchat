@@ -4,7 +4,7 @@ redis_config = {
         'port' : 6379,  # 端口
         'db' : 0,  # 数据库名
         'max_connections' : 100,  # 最大连接数
-        'pwd' : '1qaz2wsx',  # 如果密码为空，None
+        'pwd' : None,  # 如果密码为空，None
         'type' : 'default',  # 读写模式
     },
     'socket_timeout' : None,
@@ -18,7 +18,7 @@ mongo_config = {
         'port' : 27017,  # 端口
         'db' : 'lykchat',  # 数据库名
         'user' : 'lykchat',  # 连接用户名
-        'pwd' : '1qaz2wsx',  # 连接密码
+        'pwd' : 'lykchat',  # 连接密码
         'type' : 'default',  # 读写模式
     },
     # 默认连接方式。
@@ -27,7 +27,7 @@ mongo_config = {
         'port' : 27017,
         'db' : 'lykchat',
         'user' : 'lykchat',
-        'pwd' : '1qaz2wsx',
+        'pwd' : 'lykchat',
         'type' : 'default',
     },
     'mechanism':"SCRAM-SHA-1"

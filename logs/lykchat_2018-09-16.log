@@ -1,0 +1,403 @@
+2018-09-16 16:56:30,532 /home/terrydash/git/lykchat/lykchat/views.py:82 views:login ERROR 超级管理员lykchat不存在，正在创建中...
+2018-09-16 16:56:53,544 /home/terrydash/git/lykchat/library/frontend/sysadmin/user.py:358 user:create ERROR 创建用户lykchat失败，原因：登陆密码和接口密码相同
+2018-09-16 16:56:53,544 /home/terrydash/git/lykchat/lykchat/views.py:128 views:create_admin ERROR 超级管理员lykchat创建失败，原因：登陆密码和接口密码相同
+2018-09-16 16:57:11,391 /home/terrydash/git/lykchat/library/frontend/sysadmin/user.py:363 user:create ERROR 创建用户lykchat失败，原因：无法加密登陆密码提供的密码无法通过密码复杂度检查，长度不够
+2018-09-16 16:57:11,391 /home/terrydash/git/lykchat/lykchat/views.py:128 views:create_admin ERROR 超级管理员lykchat创建失败，原因：无法加密登陆密码提供的密码无法通过密码复杂度检查，长度不够
+2018-09-16 16:57:46,508 /home/terrydash/git/lykchat/library/frontend/sysadmin/user.py:388 user:create INFO 创建用户lykchat成功
+2018-09-16 16:57:54,059 /home/terrydash/git/lykchat/library/frontend/sysadmin/user.py:66 user:isalive ERROR 用户xuguoxu不存在
+2018-09-16 16:57:54,059 /home/terrydash/git/lykchat/lykchat/views.py:100 views:login ERROR 用户xuguoxu登陆失败，原因：用户xuguoxu不存在
+2018-09-16 16:58:00,257 /home/terrydash/git/lykchat/library/frontend/sysadmin/user.py:66 user:isalive ERROR 用户xuguoxu不存在
+2018-09-16 16:58:00,257 /home/terrydash/git/lykchat/lykchat/views.py:100 views:login ERROR 用户xuguoxu登陆失败，原因：用户xuguoxu不存在
+2018-09-16 16:58:10,465 /home/terrydash/git/lykchat/library/frontend/sysadmin/user.py:66 user:isalive ERROR 用户terrydash不存在
+2018-09-16 16:58:10,465 /home/terrydash/git/lykchat/lykchat/views.py:100 views:login ERROR 用户terrydash登陆失败，原因：用户terrydash不存在
+2018-09-16 17:03:19,000 /home/terrydash/git/lykchat/library/frontend/sysadmin/user.py:66 user:isalive ERROR 用户xuguoxu不存在
+2018-09-16 17:03:19,008 /home/terrydash/git/lykchat/lykchat/views.py:100 views:login ERROR 用户xuguoxu登陆失败，原因：用户xuguoxu不存在
+2018-09-16 17:03:52,792 /home/terrydash/git/lykchat/library/frontend/sysadmin/user.py:97 user:login ERROR 用户lykchat登陆失败，原因：输入的登陆密码不正确
+2018-09-16 17:03:52,792 /home/terrydash/git/lykchat/lykchat/views.py:100 views:login ERROR 用户lykchat登陆失败，原因：输入的登陆密码不正确
+2018-09-16 17:03:58,497 /home/terrydash/git/lykchat/lykchat/sysadmin/user.py:143 user:summary INFO lykchat 获取所有用户信息时成功
+2018-09-16 17:04:08,186 /home/terrydash/git/lykchat/lykchat/sysadmin/user.py:143 user:summary INFO lykchat 获取所有用户信息时成功
+2018-09-16 17:04:09,561 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:04:09,564 /home/terrydash/git/lykchat/lykchat/wechat.py:28 wechat:summary INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 17:04:10,957 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:04:10,957 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:189 single:index INFO lykchat通过web页面检测登陆状态时，没有输入uuid
+2018-09-16 17:04:12,524 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为202
+2018-09-16 17:04:12,525 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为202
+2018-09-16 17:04:25,345 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:04:25,345 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:189 single:index INFO lykchat通过web页面检测登陆状态时，没有输入uuid
+2018-09-16 17:04:27,674 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:04:27,674 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:189 single:index INFO lykchat通过web页面检测登陆状态时，没有输入uuid
+2018-09-16 17:04:28,486 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:04:28,486 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:189 single:index INFO lykchat通过web页面检测登陆状态时，没有输入uuid
+2018-09-16 17:04:28,968 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:04:28,968 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:189 single:index INFO lykchat通过web页面检测登陆状态时，没有输入uuid
+2018-09-16 17:04:38,903 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为200
+2018-09-16 17:04:41,139 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为200
+2018-09-16 17:04:41,954 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为200
+2018-09-16 17:04:42,490 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为200
+2018-09-16 17:04:42,844 /home/terrydash/git/lykchat/lykchat/sysadmin/user.py:143 user:summary INFO lykchat 获取所有用户信息时成功
+2018-09-16 17:04:44,062 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:04:44,063 /home/terrydash/git/lykchat/lykchat/wechat.py:28 wechat:summary INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 17:04:48,118 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:04:52,585 /home/terrydash/git/lykchat/lykchat/sysadmin/user.py:143 user:summary INFO lykchat 获取所有用户信息时成功
+2018-09-16 17:04:55,606 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:04:55,607 /home/terrydash/git/lykchat/lykchat/wechat.py:28 wechat:summary INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 17:04:57,174 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:04:59,745 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为222
+2018-09-16 17:04:59,748 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为222
+2018-09-16 17:04:59,749 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【徐国旭】登陆信息成功，登陆状态为222
+2018-09-16 17:05:07,885 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:05:07,886 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:05:07,886 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为402
+2018-09-16 17:05:07,922 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为222
+2018-09-16 17:05:07,923 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为222
+2018-09-16 17:05:07,924 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【徐国旭】登陆信息成功，登陆状态为222
+2018-09-16 17:05:08,699 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:05:08,700 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:05:08,700 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为402
+2018-09-16 17:05:09,148 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:05:09,148 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:05:09,148 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为402
+2018-09-16 17:05:09,632 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:05:09,632 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:05:09,633 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为402
+2018-09-16 17:06:12,211 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:06:12,212 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:508 single:send_msg WARNING 用户名【lykchat】，微信号【】发送信息失败，原因：该微信号在非登陆状态
+2018-09-16 17:06:23,606 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:06:23,607 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:06:23,607 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为402
+2018-09-16 17:06:25,200 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:06:25,200 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:06:25,201 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为402
+2018-09-16 17:06:25,822 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:06:25,822 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:06:25,822 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为402
+2018-09-16 17:06:26,661 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:06:26,661 /home/terrydash/git/lykchat/lykchat/wechat.py:28 wechat:summary INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 17:06:27,880 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:06:27,881 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:06:27,881 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为402
+2018-09-16 17:06:36,062 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:06:36,063 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:06:36,063 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为402
+2018-09-16 17:06:36,879 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:06:36,879 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:06:36,880 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为402
+2018-09-16 17:06:37,259 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:06:37,260 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:06:37,260 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为402
+2018-09-16 17:06:37,450 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:06:37,450 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:06:37,450 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为402
+2018-09-16 17:06:37,620 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:06:37,620 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为YeWt6HWxZw==登陆情况，状态为402
+2018-09-16 17:06:37,621 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为402
+2018-09-16 17:06:48,807 /home/terrydash/git/lykchat/lykchat/sysadmin/user.py:143 user:summary INFO lykchat 获取所有用户信息时成功
+2018-09-16 17:06:56,568 /home/terrydash/git/lykchat/lykchat/sysadmin/user.py:143 user:summary INFO lykchat 获取所有用户信息时成功
+2018-09-16 17:06:57,797 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:06:57,797 /home/terrydash/git/lykchat/lykchat/wechat.py:28 wechat:summary INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 17:06:58,851 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:06:58,852 /home/terrydash/git/lykchat/lykchat/wechat.py:109 wechat:logout ERROR lykchat 微信YeWt6HWxZw==退出失败，原因：{'descript': '手机端退出登陆', 'suggest': '请重新登陆', 'status': 402, 'login_stamptime': 0, 'login_min': '0分钟', 'now_time': '2018年09月16日 17:06:58', 'login_time': '', 'logout_stamptime': 0, 'logout_time': '', 'username': '', 'qr_url': '/static/qr/YeWt6HWxZw==.jpg', 'uuid': 'YeWt6HWxZw==', 'nickname': '', 'alias': '', 'friend_dict': {}, 'send_result': ''}
+2018-09-16 17:06:58,860 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:06:58,861 /home/terrydash/git/lykchat/lykchat/wechat.py:116 wechat:logout INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 17:07:07,474 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:07:07,476 /home/terrydash/git/lykchat/lykchat/wechat.py:109 wechat:logout ERROR lykchat 微信YeWt6HWxZw==退出失败，原因：{'descript': '手机端退出登陆', 'suggest': '请重新登陆', 'status': 402, 'login_stamptime': 0, 'login_min': '0分钟', 'now_time': '2018年09月16日 17:07:07', 'login_time': '', 'logout_stamptime': 0, 'logout_time': '', 'username': '', 'qr_url': '/static/qr/YeWt6HWxZw==.jpg', 'uuid': 'YeWt6HWxZw==', 'nickname': '', 'alias': '', 'friend_dict': {}, 'send_result': ''}
+2018-09-16 17:07:07,483 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:07:07,484 /home/terrydash/git/lykchat/lykchat/wechat.py:116 wechat:logout INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 17:07:08,104 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:07:08,105 /home/terrydash/git/lykchat/lykchat/wechat.py:109 wechat:logout ERROR lykchat 微信YeWt6HWxZw==退出失败，原因：{'descript': '手机端退出登陆', 'suggest': '请重新登陆', 'status': 402, 'login_stamptime': 0, 'login_min': '0分钟', 'now_time': '2018年09月16日 17:07:08', 'login_time': '', 'logout_stamptime': 0, 'logout_time': '', 'username': '', 'qr_url': '/static/qr/YeWt6HWxZw==.jpg', 'uuid': 'YeWt6HWxZw==', 'nickname': '', 'alias': '', 'friend_dict': {}, 'send_result': ''}
+2018-09-16 17:07:08,113 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:07:08,114 /home/terrydash/git/lykchat/lykchat/wechat.py:116 wechat:logout INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 17:07:08,304 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:07:08,305 /home/terrydash/git/lykchat/lykchat/wechat.py:109 wechat:logout ERROR lykchat 微信YeWt6HWxZw==退出失败，原因：{'descript': '手机端退出登陆', 'suggest': '请重新登陆', 'status': 402, 'login_stamptime': 0, 'login_min': '0分钟', 'now_time': '2018年09月16日 17:07:08', 'login_time': '', 'logout_stamptime': 0, 'logout_time': '', 'username': '', 'qr_url': '/static/qr/YeWt6HWxZw==.jpg', 'uuid': 'YeWt6HWxZw==', 'nickname': '', 'alias': '', 'friend_dict': {}, 'send_result': ''}
+2018-09-16 17:07:08,313 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:07:08,313 /home/terrydash/git/lykchat/lykchat/wechat.py:116 wechat:logout INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 17:07:08,474 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:07:08,475 /home/terrydash/git/lykchat/lykchat/wechat.py:109 wechat:logout ERROR lykchat 微信YeWt6HWxZw==退出失败，原因：{'descript': '手机端退出登陆', 'suggest': '请重新登陆', 'status': 402, 'login_stamptime': 0, 'login_min': '0分钟', 'now_time': '2018年09月16日 17:07:08', 'login_time': '', 'logout_stamptime': 0, 'logout_time': '', 'username': '', 'qr_url': '/static/qr/YeWt6HWxZw==.jpg', 'uuid': 'YeWt6HWxZw==', 'nickname': '', 'alias': '', 'friend_dict': {}, 'send_result': ''}
+2018-09-16 17:07:08,483 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:07:08,484 /home/terrydash/git/lykchat/lykchat/wechat.py:116 wechat:logout INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 17:07:08,651 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:07:08,652 /home/terrydash/git/lykchat/lykchat/wechat.py:109 wechat:logout ERROR lykchat 微信YeWt6HWxZw==退出失败，原因：{'descript': '手机端退出登陆', 'suggest': '请重新登陆', 'status': 402, 'login_stamptime': 0, 'login_min': '0分钟', 'now_time': '2018年09月16日 17:07:08', 'login_time': '', 'logout_stamptime': 0, 'logout_time': '', 'username': '', 'qr_url': '/static/qr/YeWt6HWxZw==.jpg', 'uuid': 'YeWt6HWxZw==', 'nickname': '', 'alias': '', 'friend_dict': {}, 'send_result': ''}
+2018-09-16 17:07:08,660 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:07:08,660 /home/terrydash/git/lykchat/lykchat/wechat.py:116 wechat:logout INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 17:07:09,668 /home/terrydash/git/lykchat/lykchat/sysadmin/user.py:143 user:summary INFO lykchat 获取所有用户信息时成功
+2018-09-16 17:07:15,740 /home/terrydash/git/lykchat/library/frontend/sysadmin/user.py:452 user:detail INFO 查看用户lykchat详细信息成功
+2018-09-16 17:07:15,740 /home/terrydash/git/lykchat/lykchat/sysadmin/user.py:164 user:detail INFO lykchat 查看用户lykchat的详细数据成功
+2018-09-16 17:07:22,842 /home/terrydash/git/lykchat/library/frontend/sysadmin/user.py:452 user:detail INFO 查看用户lykchat详细信息成功
+2018-09-16 17:07:30,739 /home/terrydash/git/lykchat/library/frontend/sysadmin/user.py:452 user:detail INFO 查看用户lykchat详细信息成功
+2018-09-16 17:07:30,741 /home/terrydash/git/lykchat/library/frontend/sysadmin/user.py:249 user:edit INFO 编辑用户lykchat基本信息成功
+2018-09-16 17:07:30,747 /home/terrydash/git/lykchat/library/frontend/sysadmin/user.py:452 user:detail INFO 查看用户lykchat详细信息成功
+2018-09-16 17:07:30,747 /home/terrydash/git/lykchat/lykchat/sysadmin/user.py:164 user:detail INFO lykchat 查看用户lykchat的详细数据成功
+2018-09-16 17:07:33,568 /home/terrydash/git/lykchat/lykchat/sysadmin/user.py:143 user:summary INFO lykchat 获取所有用户信息时成功
+2018-09-16 17:07:34,014 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:07:34,015 /home/terrydash/git/lykchat/lykchat/wechat.py:28 wechat:summary INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 17:07:35,559 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:07:35,560 /home/terrydash/git/lykchat/lykchat/wechat.py:109 wechat:logout ERROR lykchat 微信YeWt6HWxZw==退出失败，原因：{'descript': '手机端退出登陆', 'suggest': '请重新登陆', 'status': 402, 'login_stamptime': 0, 'login_min': '0分钟', 'now_time': '2018年09月16日 17:07:35', 'login_time': '', 'logout_stamptime': 0, 'logout_time': '', 'username': '', 'qr_url': '/static/qr/YeWt6HWxZw==.jpg', 'uuid': 'YeWt6HWxZw==', 'nickname': '', 'alias': '', 'friend_dict': {}, 'send_result': ''}
+2018-09-16 17:07:35,568 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:07:35,568 /home/terrydash/git/lykchat/lykchat/wechat.py:116 wechat:logout INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 17:07:36,832 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:07:36,832 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:189 single:index INFO lykchat通过web页面检测登陆状态时，没有输入uuid
+2018-09-16 17:07:38,143 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为gdRYBe2W5g==登陆情况，状态为202
+2018-09-16 17:07:38,144 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为202
+2018-09-16 17:07:45,212 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:07:45,212 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:189 single:index INFO lykchat通过web页面检测登陆状态时，没有输入uuid
+2018-09-16 17:07:58,718 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为gdRYBe2W5g==登陆情况，状态为200
+2018-09-16 17:08:09,776 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为gdRYBe2W5g==登陆情况，状态为222
+2018-09-16 17:08:09,778 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为gdRYBe2W5g==登陆情况，状态为222
+2018-09-16 17:08:09,780 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【徐国旭】登陆信息成功，登陆状态为222
+2018-09-16 17:08:09,821 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:08:14,998 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为gdRYBe2W5g==登陆情况，状态为222
+2018-09-16 17:08:15,001 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【徐国旭】登陆信息成功，登陆状态为222
+2018-09-16 17:09:24,947 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 17:09:25,306 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:552 single:send_msg INFO 用户名【lykchat】，微信号【徐国旭】，好友【李晓旭】，文字【11111】发送成功
+2018-09-16 18:04:28,460 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:04:42,371 /home/terrydash/git/lykchat/lykchat/sysadmin/user.py:143 user:summary INFO lykchat 获取所有用户信息时成功
+2018-09-16 18:04:43,002 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:04:43,002 /home/terrydash/git/lykchat/lykchat/wechat.py:28 wechat:summary INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 18:04:50,857 /home/terrydash/git/lykchat/lykchat/sysadmin/user.py:143 user:summary INFO lykchat 获取所有用户信息时成功
+2018-09-16 18:04:52,224 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:04:52,224 /home/terrydash/git/lykchat/lykchat/wechat.py:28 wechat:summary INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 18:19:37,507 /home/terrydash/git/lykchat/lykchat/views.py:23 views:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:19:37,515 /home/terrydash/git/lykchat/lykchat/views.py:34 views:__init__ WARNING 无法继承，需要初始化redis连接
+2018-09-16 18:19:37,740 /home/terrydash/git/lykchat/lykchat/views.py:23 views:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:19:37,750 /home/terrydash/git/lykchat/lykchat/views.py:34 views:__init__ WARNING 无法继承，需要初始化redis连接
+2018-09-16 18:20:49,846 /home/terrydash/git/lykchat/lykchat/views.py:23 views:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:20:49,859 /home/terrydash/git/lykchat/lykchat/views.py:34 views:__init__ WARNING 无法继承，需要初始化redis连接
+2018-09-16 18:20:49,994 /home/terrydash/git/lykchat/lykchat/views.py:23 views:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:20:50,018 /home/terrydash/git/lykchat/lykchat/views.py:34 views:__init__ WARNING 无法继承，需要初始化redis连接
+2018-09-16 18:20:50,218 /home/terrydash/git/lykchat/lykchat/views.py:23 views:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:20:50,228 /home/terrydash/git/lykchat/lykchat/views.py:34 views:__init__ WARNING 无法继承，需要初始化redis连接
+2018-09-16 18:22:26,649 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:22:26,649 /home/terrydash/git/lykchat/lykchat/wechat.py:28 wechat:summary INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 18:22:29,475 /home/terrydash/git/lykchat/lykchat/sysadmin/user.py:143 user:summary INFO lykchat 获取所有用户信息时成功
+2018-09-16 18:22:30,685 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:22:30,685 /home/terrydash/git/lykchat/lykchat/wechat.py:28 wechat:summary INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 18:22:31,884 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:22:31,884 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:189 single:index INFO lykchat通过web页面检测登陆状态时，没有输入uuid
+2018-09-16 18:22:33,197 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AYjI8DXu7A==登陆情况，状态为202
+2018-09-16 18:22:33,198 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为202
+2018-09-16 18:22:45,472 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:22:45,472 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:189 single:index INFO lykchat通过web页面检测登陆状态时，没有输入uuid
+2018-09-16 18:22:58,887 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AYjI8DXu7A==登陆情况，状态为200
+2018-09-16 18:23:12,686 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AYjI8DXu7A==登陆情况，状态为222
+2018-09-16 18:23:12,687 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AYjI8DXu7A==登陆情况，状态为222
+2018-09-16 18:23:12,688 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【徐国旭】登陆信息成功，登陆状态为222
+2018-09-16 18:23:12,704 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:23:16,971 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AYjI8DXu7A==登陆情况，状态为222
+2018-09-16 18:23:16,972 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【徐国旭】登陆信息成功，登陆状态为222
+2018-09-16 18:26:23,961 /home/terrydash/git/lykchat/lykchat/views.py:23 views:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:26:23,974 /home/terrydash/git/lykchat/lykchat/views.py:34 views:__init__ WARNING 无法继承，需要初始化redis连接
+2018-09-16 18:26:24,521 /home/terrydash/git/lykchat/lykchat/views.py:23 views:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:26:24,535 /home/terrydash/git/lykchat/lykchat/views.py:34 views:__init__ WARNING 无法继承，需要初始化redis连接
+2018-09-16 18:27:20,543 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:27:30,860 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:27:30,860 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:189 single:index INFO lykchat通过web页面检测登陆状态时，没有输入uuid
+2018-09-16 18:27:32,319 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为IYwKOJ3nnw==登陆情况，状态为202
+2018-09-16 18:27:32,327 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为202
+2018-09-16 18:27:43,017 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:27:43,018 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:189 single:index INFO lykchat通过web页面检测登陆状态时，没有输入uuid
+2018-09-16 18:27:56,513 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为IYwKOJ3nnw==登陆情况，状态为200
+2018-09-16 18:27:57,993 /home/terrydash/git/lykchat/lykchat/views.py:23 views:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:27:58,005 /home/terrydash/git/lykchat/lykchat/views.py:34 views:__init__ WARNING 无法继承，需要初始化redis连接
+2018-09-16 18:28:01,324 /home/terrydash/git/lykchat/lykchat/views.py:23 views:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:28:01,334 /home/terrydash/git/lykchat/lykchat/views.py:34 views:__init__ WARNING 无法继承，需要初始化redis连接
+2018-09-16 18:28:01,720 /home/terrydash/git/lykchat/lykchat/views.py:23 views:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:28:01,735 /home/terrydash/git/lykchat/lykchat/views.py:34 views:__init__ WARNING 无法继承，需要初始化redis连接
+2018-09-16 18:28:02,120 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:28:02,120 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:189 single:index INFO lykchat通过web页面检测登陆状态时，没有输入uuid
+2018-09-16 18:28:12,929 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为IYwKOJ3nnw==登陆情况，状态为222
+2018-09-16 18:28:12,932 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为IYwKOJ3nnw==登陆情况，状态为222
+2018-09-16 18:28:12,934 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【徐国旭】登陆信息成功，登陆状态为222
+2018-09-16 18:28:12,957 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:28:17,258 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为IYwKOJ3nnw==登陆情况，状态为222
+2018-09-16 18:28:17,259 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【徐国旭】登陆信息成功，登陆状态为222
+2018-09-16 18:29:04,412 /home/terrydash/git/lykchat/lykchat/sysadmin/user.py:143 user:summary INFO lykchat 获取所有用户信息时成功
+2018-09-16 18:29:06,986 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:29:06,987 /home/terrydash/git/lykchat/lykchat/wechat.py:28 wechat:summary INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 18:29:09,376 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:29:21,772 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为IYwKOJ3nnw==登陆情况，状态为222
+2018-09-16 18:29:21,773 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【徐国旭】登陆信息成功，登陆状态为222
+2018-09-16 18:30:40,602 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:30:45,491 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为IYwKOJ3nnw==登陆情况，状态为222
+2018-09-16 18:30:45,491 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【徐国旭】登陆信息成功，登陆状态为222
+2018-09-16 18:31:23,937 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:31:23,946 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:31:23,956 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:31:24,580 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为IYwKOJ3nnw==登陆情况，状态为222
+2018-09-16 18:31:24,601 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:138 interface:check_alluser INFO (True, {'IYwKOJ3nnw==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537093884}})
+2018-09-16 18:31:24,602 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 18:31:35,003 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:31:35,011 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:31:35,019 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:31:35,534 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为IYwKOJ3nnw==登陆情况，状态为222
+2018-09-16 18:31:35,536 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:138 interface:check_alluser INFO (True, {'IYwKOJ3nnw==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537093895}})
+2018-09-16 18:31:35,536 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 18:31:58,865 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:31:58,873 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:31:58,881 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:31:59,445 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为IYwKOJ3nnw==登陆情况，状态为222
+2018-09-16 18:31:59,446 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:138 interface:check_alluser INFO (True, {'IYwKOJ3nnw==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537093919}})
+2018-09-16 18:31:59,446 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 18:33:12,116 /home/terrydash/git/lykchat/lykchat/wechat.py:217 wechat:sendmsg ERROR 通过接口发送信息失败，原因：没有输入用户名
+2018-09-16 18:36:26,611 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:36:26,611 /home/terrydash/git/lykchat/library/frontend/__init__.py:45 __init__:get_userinfo WARNING 强制删除用户信息缓存
+2018-09-16 18:36:26,616 /home/terrydash/git/lykchat/library/frontend/wechat/__init__.py:143 __init__:verify_ifpwd WARNING xuguoxu没有设置接口密码
+2018-09-16 18:36:26,657 /home/terrydash/git/lykchat/lykchat/wechat.py:263 wechat:sendmsg ERROR xuguoxu调用接口发送信息失败 ，原因：请设置该用户的接口密码
+2018-09-16 18:36:37,949 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:36:44,937 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:36:44,937 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:189 single:index INFO lykchat通过web页面检测登陆状态时，没有输入uuid
+2018-09-16 18:36:46,156 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为QbyOhlxd_w==登陆情况，状态为202
+2018-09-16 18:36:46,157 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为202
+2018-09-16 18:37:13,508 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:37:13,527 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:37:13,527 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:138 interface:check_alluser INFO (True, {})
+2018-09-16 18:37:13,528 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 18:42:13,767 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:43:00,832 /home/terrydash/git/lykchat/library/frontend/sysadmin/user.py:97 user:login ERROR 用户lykchat登陆失败，原因：输入的登陆密码不正确
+2018-09-16 18:43:00,832 /home/terrydash/git/lykchat/lykchat/views.py:100 views:login ERROR 用户lykchat登陆失败，原因：输入的登陆密码不正确
+2018-09-16 18:43:06,822 /home/terrydash/git/lykchat/lykchat/sysadmin/user.py:143 user:summary INFO lykchat 获取所有用户信息时成功
+2018-09-16 18:43:08,187 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:43:08,187 /home/terrydash/git/lykchat/lykchat/wechat.py:28 wechat:summary INFO lykchat 获取所有微信号登陆信息时成功
+2018-09-16 18:43:11,919 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:43:11,919 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【192.168.123.60】检测所有用户的微信号登陆情况成功
+2018-09-16 18:43:16,995 /home/terrydash/git/lykchat/lykchat/wechat.py:217 wechat:sendmsg ERROR 通过接口发送信息失败，原因：没有输入用户名
+2018-09-16 18:43:21,555 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:43:21,555 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【192.168.123.60】检测所有用户的微信号登陆情况成功
+2018-09-16 18:51:25,812 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:51:49,372 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:51:49,372 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:189 single:index INFO lykchat通过web页面检测登陆状态时，没有输入uuid
+2018-09-16 18:51:50,685 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为202
+2018-09-16 18:51:50,686 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【】登陆信息成功，登陆状态为202
+2018-09-16 18:52:03,638 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:52:03,638 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:189 single:index INFO lykchat通过web页面检测登陆状态时，没有输入uuid
+2018-09-16 18:52:16,700 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:52:16,700 /home/terrydash/git/lykchat/library/frontend/__init__.py:45 __init__:get_userinfo WARNING 强制删除用户信息缓存
+2018-09-16 18:52:16,702 /home/terrydash/git/lykchat/library/frontend/wechat/__init__.py:143 __init__:verify_ifpwd WARNING xuguoxu没有设置接口密码
+2018-09-16 18:52:16,702 /home/terrydash/git/lykchat/lykchat/wechat.py:263 wechat:sendmsg ERROR xuguoxu调用接口发送信息失败 ，原因：请设置该用户的接口密码
+2018-09-16 18:52:17,208 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为200
+2018-09-16 18:52:26,299 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:52:26,300 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:189 single:index INFO lykchat通过web页面检测登陆状态时，没有输入uuid
+2018-09-16 18:52:37,410 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 18:52:37,412 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 18:52:37,415 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【徐国旭】登陆信息成功，登陆状态为222
+2018-09-16 18:52:37,444 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:52:41,698 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 18:52:41,699 /home/terrydash/git/lykchat/lykchat/wechat.py:57 wechat:detail INFO lykchat 获取微信号【徐国旭】登陆信息成功，登陆状态为222
+2018-09-16 18:53:07,116 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:53:07,116 /home/terrydash/git/lykchat/library/frontend/__init__.py:45 __init__:get_userinfo WARNING 强制删除用户信息缓存
+2018-09-16 18:53:07,119 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:36 interface:sendmsg INFO {'logout_time': '', 'login_time': '2018年09月16日 18:52:37', 'alias': '', 'nickname': '徐国旭', 'uuid': 'AfyOVAD3kA==', 'start_timestamp': 1537095110, 'descript': '登陆中', 'suggest': '可以发送信息', 'status': 222}
+2018-09-16 18:53:07,130 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:53:07,508 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:552 single:send_msg INFO 用户名【lykchat】，微信号【徐国旭】，好友【罗】，文字【这是一条测试信息，不要回复】发送成功
+2018-09-16 18:53:24,533 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:53:24,570 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:53:24,589 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:53:25,212 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 18:53:25,217 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537095205}})
+2018-09-16 18:53:25,218 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 18:54:21,980 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:54:22,005 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:54:22,023 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:54:22,665 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 18:54:22,671 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537095262}})
+2018-09-16 18:54:22,672 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 18:55:32,824 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:55:32,842 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:55:32,853 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:55:33,479 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 18:55:33,483 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537095333}})
+2018-09-16 18:55:33,484 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 18:56:30,295 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:56:30,312 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:56:30,328 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:56:30,961 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 18:56:30,966 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537095390}})
+2018-09-16 18:56:30,967 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 18:57:36,134 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:57:36,164 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:57:36,190 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:57:36,842 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 18:57:36,846 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537095456}})
+2018-09-16 18:57:36,847 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 18:58:33,602 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:58:33,626 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:58:33,654 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:58:34,247 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 18:58:34,252 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537095514}})
+2018-09-16 18:58:34,253 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 18:59:36,954 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:59:36,962 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:59:36,971 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 18:59:37,559 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 18:59:37,561 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537095577}})
+2018-09-16 18:59:37,561 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 19:00:34,366 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:00:34,381 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:00:34,396 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:00:35,054 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 19:00:35,059 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537095635}})
+2018-09-16 19:00:35,060 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 19:01:37,679 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:01:37,697 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:01:37,710 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:01:38,358 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 19:01:38,363 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537095698}})
+2018-09-16 19:01:38,364 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 19:02:35,187 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:02:35,200 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:02:35,215 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:02:35,809 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 19:02:35,814 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537095755}})
+2018-09-16 19:02:35,815 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 19:03:45,992 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:03:46,004 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:03:46,022 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:03:46,641 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 19:03:46,646 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537095826}})
+2018-09-16 19:03:46,647 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 19:04:43,463 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:04:43,482 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:04:43,499 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:04:44,178 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 19:04:44,183 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537095884}})
+2018-09-16 19:04:44,184 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 19:05:46,774 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:05:46,797 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:05:46,811 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:05:47,412 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 19:05:47,418 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537095947}})
+2018-09-16 19:05:47,419 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 19:06:46,779 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:06:46,796 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:06:46,812 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:06:47,399 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 19:06:47,404 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537096007}})
+2018-09-16 19:06:47,406 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 19:07:47,570 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:07:47,589 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:07:47,606 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:07:48,226 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 19:07:48,230 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537096068}})
+2018-09-16 19:07:48,231 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 19:08:47,544 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:08:47,566 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:08:47,581 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:08:48,196 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 19:08:48,197 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537096128}})
+2018-09-16 19:08:48,198 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 19:09:48,364 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:09:48,387 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:09:48,405 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:09:49,031 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 19:09:49,036 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537096189}})
+2018-09-16 19:09:49,037 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 19:10:55,825 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:10:55,841 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:10:55,857 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:10:56,443 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 19:10:56,447 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537096256}})
+2018-09-16 19:10:56,448 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功
+2018-09-16 19:11:49,129 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:11:49,141 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:11:49,155 /home/terrydash/git/lykchat/library/frontend/__init__.py:23 __init__:__init__ WARNING 无法继承，需要初始化mongodb连接
+2018-09-16 19:11:49,785 /home/terrydash/git/lykchat/library/frontend/wechat/single.py:451 single:_session2write INFO lykchat检测微信号uuid为AfyOVAD3kA==登陆情况，状态为222
+2018-09-16 19:11:49,786 /home/terrydash/git/lykchat/library/frontend/wechat/interface.py:139 interface:check_alluser INFO (True, {'AfyOVAD3kA==': {'code': 1, 'status': 222, 'logout_timestamp': '', 'logint_timestamp': '', 'nickname': '徐国旭', 'alias': '', 'now_stamptime': 1537096309}})
+2018-09-16 19:11:49,787 /home/terrydash/git/lykchat/lykchat/wechat.py:144 wechat:check INFO 计划任务检测登陆用户从【127.0.0.1】检测所有用户的微信号登陆情况成功

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os
 import sys
-
+import threading
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "lykchat.settings")
     try:
@@ -19,4 +19,7 @@ if __name__ == "__main__":
                 "forget to activate a virtual environment?"
             )
         raise
+    from lykchat.schedule import start
+    t = threading.Thread(target=start, daemon=True)
+    t.start()
     execute_from_command_line(sys.argv)
